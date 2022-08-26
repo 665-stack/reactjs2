@@ -23,7 +23,7 @@ const PhoneChart = () => {
     }, [])
     return (
         <div>
-            <h2>ReCharts</h2>
+
             <BarChart width={600} height={300} data={phones}>
                 <Bar dataKey="value" fill="#8884d8" />
                 <XAxis dataKey={'name'}></XAxis>
