@@ -11,10 +11,12 @@ function App() {
     <div className="App">
       <h2>Welcome to my fucking website </h2>
       <Routes>
+
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/friends' element={<Friends></Friends>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
+
       </Routes>
     </div>
   );
