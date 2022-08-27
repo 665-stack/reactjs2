@@ -5,11 +5,12 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Friends from './Components/Friends/Friends';
 import NotFound from './Components/NotFound/NotFound';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h2>Welcome to my fucking website </h2>
+      <Header></Header>
       <Routes>
 
         <Route path='/' element={<Home></Home>}></Route>
