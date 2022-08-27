@@ -1,15 +1,17 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import CustomLink from '../CustomLink/CustomLink';
 
+import CustomLink from '../CustomLink/CustomLink';
+import './Header.css'
 const Header = () => {
     return (
-        <div>
-            <nav>
+        <div className='header'>
+            <nav className='navlinks'>
 
-                <CustomLink to="/">Home</CustomLink>
-                <CustomLink to='/friends'>Friends</ CustomLink>
-                <CustomLink to="/about">About</CustomLink>
+                {/*akane <Link> tag use kore navbar make korar kotha. but custom akta tag CustomLink diye kora hoice karon . jei active navbar er jonno */}
+
+                <CustomLink className='navlink' to="/">Home</CustomLink>
+                <CustomLink className='navlink' to='/friends'>Friends</ CustomLink>
+                <CustomLink className='navlink' to="/about">About</CustomLink>
 
 
             </nav>
