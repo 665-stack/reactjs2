@@ -20,11 +20,16 @@ function App() {
   },
   );
 
-
+  function isAdmin(user) {
+    return (user ? 'Admin' : 'Normal User');
+  }
+  // console.log(isAdmin(true));
   return (
+
     <div className="App">
       <animated.div style={props}> <h2>ReCharts</h2> </animated.div>
       <PhoneChart></PhoneChart>
+
     </div>
   );
 }
