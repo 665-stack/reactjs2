@@ -1,14 +1,16 @@
-.header {
-    text-align: center;
-    background-color: rgb(195, 213, 229);
+ul {
+    background-color: rgb(18, 18, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
 }
 
-
-.navlinks .navlink {
-
-    color: black;
-    padding: 0px 20px;
-    background-color: rgb(230, 238, 245);
+li a {
+    color: wheat;
+    padding: 10px 20px;
     text-decoration: none;
-
+    border-radius: 5px;
 }
