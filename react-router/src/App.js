@@ -9,6 +9,8 @@ import Header from './Components/Header/Header';
 import FriendDetail from './Components/FriendDetail/FriendDetail';
 import Posts from './Components/Posts/Posts';
 import PostDetail from './Components/PostDetail/PostDetail';
+import Countries from './Components/Countries/Countries';
+import CountryDetail from './Components/CountryDetail/CountryDetail';
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home></Home>}></Route>
+
+        <Route path='/countries' element={<Countries></Countries>}></Route>
+
+        <Route path='/country/:countryName' element={<CountryDetail></CountryDetail>}></Route>
 
         <Route path='/about' element={<About></About>}></Route>
 
@@ -35,7 +41,7 @@ function App() {
         <Route path='*' element={<NotFound></NotFound>}></Route>
 
       </Routes>
-    </div>
+    </div >
   );
 }
 
