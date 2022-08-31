@@ -1,14 +1,11 @@
 .header {
     text-align: center;
-    /* margin: 20px; */
-    box-sizing: border-box;
     background-color: rgb(195, 213, 229);
 }
 
-.navlink {}
 
 .navlinks .navlink {
-    display: inline;
+
     color: black;
     padding: 0px 20px;
     background-color: rgb(230, 238, 245);
