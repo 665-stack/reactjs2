@@ -4,8 +4,21 @@
     grid-column-gap: 10px;
 }
 
-.meals-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.meals-container {}
+
+/* .Heading {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+    text-shadow: 0px 0px 6px rgba(213, 222, 227, 0.7);
+
+} */
+
+.input-field {
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #0073e6,
+        0 0 0.8rem #0073e6,
+        0 0 2.8rem #0073e6,
+        inset 0 0 1.3rem #0073e6;
 }

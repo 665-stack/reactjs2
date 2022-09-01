@@ -23,13 +23,12 @@ const Restaurant = () => {
     }
     return (
         <div className='mt-4'>
-            <h2 className='text-slate-800 text-2xl font-bold'>Find the food you want</h2>
+            <h2 className='Heading'>Find the food you want</h2>
 
-            <input onChange={searchFood} type="text" placeholder="Search your food name" className="mt-4 px-3 py-1 placeholder-slate-500 border-solid border-2 border-slate-800 rounded-md  text-slate-800 relativ bg-slate-200" />
+            <input onChange={searchFood} type="text" placeholder="Search your food name" className="input-field mt-5 px-3 py-1 placeholder-gray " />
             <br />
-            <h3>Result Found: {meals.length}</h3>
 
-            <div className='meals-container '>
+            <div className='meals-container mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-10 sm:mx-28 md:mx-12'>
                 {
                     meals.map(meal => <Meal meal={meal}
                         key={meal.idMeal}></Meal>)
