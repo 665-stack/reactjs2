@@ -1,9 +1,36 @@
 .meal {
-    border: 1px solid lightslategray;
+    border: 2px solid rgb(81, 145, 208);
+    background-color: rgba(9, 41, 70, 0.598);
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    color: aliceblue;
 }
 
 .meal img {
-    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.mealInfo {
+    margin: 10px 5px 10px 5px;
+}
+
+.mealInfo h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: rgb(81, 145, 208);
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgba(7, 27, 66, 0.985);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.meal button:hover {
+    background-color: rgb(124, 166, 208);
 }

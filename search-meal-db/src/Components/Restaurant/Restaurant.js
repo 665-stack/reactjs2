@@ -28,7 +28,7 @@ const Restaurant = () => {
             <input onChange={searchFood} type="text" placeholder="Search your food name" className="input-field mt-5 px-3 py-1 placeholder-gray " />
             <br />
 
-            <div className='meals-container mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-10 sm:mx-28 md:mx-12'>
+            <div className='meals-container mt-16 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-16 sm:mx-10 md:mx-10'>
                 {
                     meals.map(meal => <Meal meal={meal}
                         key={meal.idMeal}></Meal>)

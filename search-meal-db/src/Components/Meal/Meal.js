@@ -6,8 +6,10 @@ const Meal = ({ meal, handleAddToOrder }) => {
     return (
         <div className='meal'>
             <img src={strMealThumb} alt="" />
-            <h4>{strMeal}</h4>
-            <p>{strInstructions.slice(0, 100)}</p>
+            <div className='mealInfo'>
+                <h4>{strMeal}</h4>
+                <p>{strInstructions.slice(0, 100)}</p>
+            </div>
             <button onClick={() => handleAddToOrder(meal)}>Add this Food</button>
         </div>
     );
