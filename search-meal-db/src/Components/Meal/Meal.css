@@ -13,7 +13,7 @@
 }
 
 .mealInfo {
-    margin: 10px 5px 10px 5px;
+    margin: 10px 5px 25px 5px;
 }
 
 .mealInfo h4 {
@@ -22,15 +22,33 @@
     margin-bottom: 5px;
 }
 
+.meal .link {
+    border: 2px solid rgb(81, 145, 208);
+    padding: 5px 13px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+.meal .link:hover {
+    background-color: rgb(81, 145, 208);
+    color: rgba(7, 27, 66, 0.985);
+}
+
+
 .meal button {
     background-color: rgb(81, 145, 208);
     padding: 5px 15px;
     border-radius: 5px;
     color: rgba(7, 27, 66, 0.985);
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 
 .meal button:hover {
-    background-color: rgb(124, 166, 208);
+    border: 2px solid rgb(124, 166, 208);
+    background-color: transparent;
+    padding: 3px 13px;
+    color: white;
 }
