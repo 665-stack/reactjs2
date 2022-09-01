@@ -3,9 +3,17 @@ import { Link } from "react-router-dom";
 import './Header.css'
 const Header = () => {
     return (
-        <nav className='bg-slate-800	 py-2.5'>
+        <nav className='navbar'>
             <ul>
-                <li className='text-1xl text-sky-600 font-bold'><Link to='/restaurant'>Restaurant</Link></li>
+                <li>
+                    <Link className='navItem bg-indigo-500 shadow-lg shadow-indigo-500/50'
+                        to="/">Home</Link>
+                </li>
+                <li>
+
+                    <Link className='navItem bg-indigo-500 shadow-lg shadow-indigo-500/50' to='/restaurant'>Restaurant</Link>
+
+                </li>
 
             </ul>
 

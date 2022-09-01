@@ -1,0 +1,23 @@
+/* Google fonts cdn */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+.navbar {
+    border-bottom: 2px solid rgb(180, 180, 225);
+    padding: 12px 0px 12px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
