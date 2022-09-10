@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 27, 27);
+
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navbar {
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar-item {
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 30px;
+    color: rgb(96, 95, 95);
+    transition: .5s;
+}
+
+.navbar-item:hover {
+    color: white;
+}
