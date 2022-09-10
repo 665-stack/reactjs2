@@ -2,8 +2,6 @@ import React from 'react';
 import './Header.css'
 import { Link } from 'react-router-dom';
 const Header = () => {
-
-
     return (
         <div className='header px-6 py-3 lg:pt-12 lg:px-12'>
 
@@ -14,6 +12,8 @@ const Header = () => {
             <div className='navbar'>
                 <Link to='/'><p className='navbar-item ' >Home</p></Link>
                 <Link to='/countries'><p className='navbar-item ' >Countries</p></Link>
+                <Link to='/resume'><p className='navbar-item ' >Resume</p></Link>
+                <Link to='/contact'><p className='navbar-item ' >Contact</p></Link>
             </div>
 
         </div>
