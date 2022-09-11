@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header px-6 py-3 lg:pt-12 lg:px-12'>
 
             <div className='navbar-brand'>
-                <p >Mahomodul Shahin</p>
+                <p >Personal website</p>
             </div>
 
             <div className='navbar'>

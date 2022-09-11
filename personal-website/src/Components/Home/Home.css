@@ -1,4 +1,11 @@
 .home {
+    /* justify-content: center; */
     background-color: rgb(29, 27, 27);
     height: 100vh;
+    color: white;
+}
+
+.profile-img .img {
+    margin: 0 0 auto auto;
+    margin-right: 20px;
 }
