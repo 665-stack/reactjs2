@@ -16,7 +16,7 @@ const Header = () => {
 
 
         <nav className='navbar flex px-6 py-3 lg:pt-8 lg:px-12'>
-            <p className='navbar-brand w-2/4'>Mahmodul Shahin</p>
+            <p className='navbar-brand w-3/4'>Mahmodul Shahin</p>
             <div onClick={() => { setOpen(!open) }} className="navbar-icon w-7 h-7  md:hidden text-slate-900">
 
                 {open ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>}
