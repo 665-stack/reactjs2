@@ -1,4 +1,31 @@
-.header {
+.navbar {
+    background-color: rgb(29, 27, 27);
+    align-items: center;
+}
+
+.navbar-brand {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navbar-icon {
+    margin: 0 15px 0 auto;
+    color: white;
+}
+
+
+
+.navbar-itmes {
+    background-color: rgba(29, 27, 27, 0.261);
+}
+
+
+
+
+
+/* .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +54,4 @@
 
 .navbar-item:hover {
     color: white;
-}
+} */
