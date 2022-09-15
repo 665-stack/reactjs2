@@ -1,0 +1,10 @@
+.countries {
+    background-color: rgb(29, 27, 27);
+    /* background-color: black; */
+    padding-bottom: 500px;
+}
+
+.countries-container {
+    margin: 20px 20px 50px 20px;
+
+}

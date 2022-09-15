@@ -1,0 +1,28 @@
+.country {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.385);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.meal-img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.country-info {
+    text-align: left;
+    margin: 10px 10px 30px 10px;
+}
+
+.country .links {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 5px;
+}
